@@ -25,13 +25,8 @@
 //SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-#if COCOAPODS
 #import <AbstractActionSheetPicker.h>
 #import <DistancePickerView.h>
-#else
-#import <AbstractActionSheetPicker.h>
-#import <DistancePickerView.h>
-#endif
 
 @interface ActionSheetDistancePicker : AbstractActionSheetPicker <UIPickerViewDelegate, UIPickerViewDataSource>
 
