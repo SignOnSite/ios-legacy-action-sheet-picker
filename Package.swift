@@ -4,16 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "ActionSheetPicker-3.0",
+    name: "LegacyActionSheetPicker",
     platforms: [.iOS(.v9)],
     products: [
         .library(
-            name: "ActionSheetPicker-3.0",
-            targets: ["CoreActionSheetPicker"]),
+            name: "LegacyActionSheetPicker",
+            targets: ["LegacyActionSheetPicker"]),
     ],
     targets: [
         .target(
-            name: "CoreActionSheetPicker",
+            name: "LegacyActionSheetPicker",
             path: "CoreActionSheetPicker/CoreActionSheetPicker/Pickers",
             publicHeadersPath: "include"
         )
