@@ -9,11 +9,11 @@ let package = Package(
     products: [
         .library(
             name: "LegacyActionSheetPicker",
-            targets: ["LegacyActionSheetPicker"]),
+            targets: ["CoreActionSheetPicker"]),
     ],
     targets: [
         .target(
-            name: "LegacyActionSheetPicker",
+            name: "CoreActionSheetPicker",
             path: "CoreActionSheetPicker/CoreActionSheetPicker/Pickers",
             publicHeadersPath: "include"
         )

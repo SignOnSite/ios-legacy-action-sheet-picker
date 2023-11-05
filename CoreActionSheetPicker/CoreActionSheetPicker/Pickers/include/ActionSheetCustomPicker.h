@@ -10,8 +10,8 @@
 #import <AbstractActionSheetPicker.h>
 #import <ActionSheetCustomPickerDelegate.h>
 #else
-#import <CoreActionSheetPicker/AbstractActionSheetPicker.h>
-#import <CoreActionSheetPicker/ActionSheetCustomPickerDelegate.h>
+#import <AbstractActionSheetPicker.h>
+#import <ActionSheetCustomPickerDelegate.h>
 #endif
 
 @interface ActionSheetCustomPicker : AbstractActionSheetPicker

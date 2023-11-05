@@ -31,7 +31,7 @@
 #if COCOAPODS
 #import <AbstractActionSheetPicker.h>
 #else
-#import <CoreActionSheetPicker/AbstractActionSheetPicker.h>
+#import <AbstractActionSheetPicker.h>
 #endif
 
 @class ActionSheetMultipleStringPicker;

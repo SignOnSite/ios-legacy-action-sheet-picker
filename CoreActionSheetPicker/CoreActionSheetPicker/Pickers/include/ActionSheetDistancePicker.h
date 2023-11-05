@@ -29,8 +29,8 @@
 #import <AbstractActionSheetPicker.h>
 #import <DistancePickerView.h>
 #else
-#import <CoreActionSheetPicker/AbstractActionSheetPicker.h>
-#import <CoreActionSheetPicker/DistancePickerView.h>
+#import <AbstractActionSheetPicker.h>
+#import <DistancePickerView.h>
 #endif
 
 @interface ActionSheetDistancePicker : AbstractActionSheetPicker <UIPickerViewDelegate, UIPickerViewDataSource>
